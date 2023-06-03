@@ -1,0 +1,11 @@
+1. wget https://www.coin-or.org/download/source/Ipopt/Ipopt-3.12.9.zip
+解压
+2. 下载这个安装文件
+https://github.com/udacity/CarND-MPC-Project/blob/master/install_ipopt.sh
+3. 安装ipopt：(后面是解压后的路径）
+sudo bash install_ipopt.sh /home/juncheng/Ipopt-3.12.9
+4. 运行中如果出现third_party文件不能自动下载的情况，需要根据提示信息，手动下载相应的压缩包。
+5. 安装完成，到catkin_ws中执行catkin_make。
+6. 运行ros launch时，如果提示找不到libipopt.so的问题
+参照下文中1-3步：
+https://huaweicloud.csdn.net/63560666d3efff3090b58d94.html?spm=1001.2101.3001.6650.2&utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7Eactivity-2-125180410-blog-73201234.235%5Ev35%5Epc_relevant_default_base3&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7Eactivity-2-125180410-blog-73201234.235%5Ev35%5Epc_relevant_default_base3&utm_relevant_index=3

@@ -1,0 +1,14 @@
+{
+  "robots": {
+    "robot": { "radius": 0.3, "speed": 1.0 },
+    "default": { "radius": 0.3, "speed": 1.0 },
+    "seed": {"seed": [0]}
+  },
+
+  "agents": [
+    {"name": "robot", "start": [0.46, -4.4, 0.0], "goal": [8.8, -1.8, 0.0], "radius": 0.3, "speed": 1.0 },
+    {"name": "robot", "start": [9.4, -2.0, 0.0], "goal": [0.0, -1.3, 0.0], "radius": 0.3, "speed": 1.0 },
+    {"name": "robot", "start": [-0, 0, 0.0], "goal": [7.6, -5.2, 0.0], "radius": 0.3, "speed": 1.0 }
+]
+}
+
